@@ -1,0 +1,141 @@
+/*
+Theme Name: TwentyTen for iPad
+Theme URI: http://themes.lonchbox.com/twentytenmobile
+Description: Child Theme of TwentyTen for iPad Landscape
+Version: 0.8
+Author: Pancho Pérez
+Author URI: http://www.lonchbox.com/
+Template: twentyten
+Tags: iPad, Viewport, Landscape, Portrait, Mobile, Touch, userAgent, Media, CSS
+
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url(../twentyten/style.css);
+
+@media only screen and (device-width: 768px) and (orientation: portrait){
+
+	.home .entry-content {
+		display: none;
+	}
+	/* =Comments
+	-------------------------------------------------------------- */
+	#respond {
+		display: none;
+	}
+
+}
+
+@media only screen and (device-width: 768px) and (orientation: landscape){
+
+	/* =Layout iPad
+	-------------------------------------------------------------- */
+	
+	/*
+	LAYOUT: Landscape
+	DESCRIPTION: THe sidebar was sended to the bottom fo the Layout, given more space for text
+	*/
+	
+	#container {
+		float: left;
+		margin: 0 0 0 0;
+		width: 100%;
+	}
+	#content {
+		margin: 0 0 20px 0;
+	}
+	#primary {
+		margin-right: 20px;
+	}
+	#primary,
+	#secondary {
+		float: left;
+		overflow: hidden;
+		width: 450px;
+		padding: 10px 0;
+		border-top: 4px solid #000;
+	}
+	#secondary {
+		clear: right;
+	}
+	#footer {
+		clear: both;
+		width: 100%;
+	}
+	
+	/* =Header
+	-------------------------------------------------------------- */
+	
+	#branding img  {
+		display: none;
+	}
+	#site-title {
+		font-size: 14px;
+		line-height: 14px;
+		margin: 0 0 8px 0;
+		width: 100%;
+		text-align: center;
+	}
+	#site-description {
+		display: none;
+	}
+	
+	/* =Menu
+	-------------------------------------------------------------- */
+	
+	#access {
+		margin-bottom: 10px;
+	}
+	#access a {
+		line-height: 24px;
+		font-size: 12px;
+	}
+	
+	/* =Content
+	-------------------------------------------------------------- */
+	#main {
+		padding: 0;
+	}
+	#content .entry-title {
+		font-size: 27px;
+		line-height: 1.4em;
+	}
+	.home .entry-content {
+		display: none;
+	}
+	.entry-meta {
+		font-size: 14px;
+	}
+	/* =Navigation
+	-------------------------------------------------------------- */
+	
+	.navigation {
+		color: #888;
+		font-size: 12px;
+		line-height: 18px;
+		overflow: hidden;
+	}
+	.navigation a:link,
+	.navigation a:visited {
+		color: #888;
+		text-decoration: none;
+	}
+	.navigation a:active,
+	.navigation a:hover {
+		color: #ff4b33;
+	}
+	.nav-previous {
+		float: left;
+		width: 50%;
+	}
+	.nav-next {
+		float: right;
+		text-align: right;
+		width: 50%;
+	}
+	#nav-above {
+		display: none !important;
+	}
+	
+}

@@ -1,0 +1,17 @@
+/*
+Theme Name: TwentyTen Mobile
+Theme URI: http://themes.lonchbox.com/twentytenmobile
+Description: Child Theme of TwentyTen for Mobile Devices
+Version: 0.8
+Author: Pancho Pérez
+Author URI: http://www.lonchbox.com/
+Template: twentyten
+Tags: editor-style, rtl-language-support, microformats, translation-ready, sticky-post, threaded-comments, custom-background, custom-header, white, blue, black
+
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Import the original CSS stylesheet */
+
+@import url(../twentyten/style.css);
